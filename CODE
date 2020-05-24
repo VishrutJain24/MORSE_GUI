@@ -17,11 +17,6 @@ def clickMe():
 
 name = tkinter.StringVar()
 
-
-
-
-
-
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
@@ -140,4 +135,8 @@ def convertToMorseCode(sentence):
               GPIO.output(led, False)
               time.sleep(0.25)
 	      
-	      //referred to 
+	      
+	      
+	      
+	      
+	      //all credit for the code goes to https://github.com/ElChapo-701/Morse_GUI/blob/master/CODE      
